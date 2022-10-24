@@ -7,7 +7,7 @@ import Card from './Cards';
 function LinkCard() {
     return (
         <>
-            <div className='d-flex flex-column gap-4'>
+            <div className='d-flex flex-column gap-4 mt-3'>
                 <Col>
                     <Card
                         linkTitle="Twitter Link"

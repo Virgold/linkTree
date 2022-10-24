@@ -3,7 +3,7 @@ import Img from '../assets/image1.jpeg'
 
 function Profile() {
   return (
-    <div className='d-flex flex-column align-items-center gap-3 py-4'>
+    <div className='d-flex flex-column align-items-center gap-3 pt-2'>
       <div className='profileImg'>
         <img src={Img} alt="" id='profile__img' />
       </div>

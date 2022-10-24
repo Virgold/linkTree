@@ -30,13 +30,19 @@
   border-radius: 100%;
 }
 
+.profileImg:hover {
+  background-color: #EAECF0 !important;
+}
+
+
 #profile__img {
   border-radius: 50%;
-  width: 150px; 
+  width: 150px;
   height: 150px;
 }
 
-#twitter,#slack {
+#twitter,
+#slack {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -44,4 +50,61 @@
   line-height: 30px;
   color: #101828;
   text-align: center;
+}
+
+#vector {
+  Width: 7.87px;
+  Height: 7.75px;
+}
+
+#mainText {
+  width: 18503px;
+  height: 24.74px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700!important;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#subText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+#logo {
+  width: 132.13px;
+  height: 32px;
+}
+
+@media only screen and (max-width: 568px) {
+  .profileImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+  }
+
+  #profile__img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .profileImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+  }
+
+  #profile__img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+  }
 }
