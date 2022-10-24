@@ -17,3 +17,31 @@
   font-size: 18px;
   line-height: 28px;
 }
+
+.profileImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  padding: 0px;
+  width: 180px;
+  height: 180px;
+  background-color: #D0D5DD;
+  border-radius: 100%;
+}
+
+#profile__img {
+  border-radius: 50%;
+  width: 150px; 
+  height: 150px;
+}
+
+#twitter,#slack {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+  text-align: center;
+}
