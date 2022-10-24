@@ -5,7 +5,7 @@ import vector from '../assets/Vector.png'
 
 function Footer() {
     return (
-        <div className='d-flex flex-row justify-content-between align-items-self gap3 mt-3 py-4'>
+        <div className='d-md-flex flex-row justify-content-between align-items-self gap3 mt-3 py-4 d-none'>
 
             <div className='mainText'>
                Zuri <span><img src={vector} alt="" id='vector'/></span> Internship

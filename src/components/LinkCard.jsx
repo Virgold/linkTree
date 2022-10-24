@@ -3,6 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import '../App.css'
 import Card from './Cards';
+import Workplace from './Workplace';
 
 function LinkCard() {
     return (
@@ -54,6 +55,7 @@ function LinkCard() {
                         linkRef="book__design"
                     />
                 </Col>
+                <Workplace/>
             </div>
         </>
     )
