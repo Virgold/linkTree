@@ -1,39 +1,19 @@
 .linkBtn {
-  background-color: #EAECF0!important;
-  /* width: 1152px; */
+  background-color: #EAECF0 !important;
   height: 76px;
-  border: 1px solid #EAECF0!important;
-  border-radius: 8px!important;
-  color: #101828!important;
+  border: 1px solid #EAECF0 !important;
+  border-radius: 8px !important;
+  color: #101828 !important;
 }
 
-/* @media (max-width: 992px) {
-  .link {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 543px;
-    height: 68px;
-    overflow-x: scroll;
-  }
+.linkBtn:hover {
+  background-color: #D0D5DD !important;
 }
-@media (max-width: 576px) {
-  .link {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 343px;
-    height: 68px;
-    overflow-x: scroll;
-  }
-}  */
+
+.linkBtn a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
