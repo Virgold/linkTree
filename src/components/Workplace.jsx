@@ -4,7 +4,7 @@ import SocialImg from '../assets/Social icon.png'
 
 function Workplace() {
   return (
-    <div className='d-md-flex flex-row justify-content-center align-items-self gap-3 mt-3 py-4 d-none'>
+    <div className='d-md-flex flex-row justify-content-center align-items-self gap-3 mt-3 mb-5 py-4 d-none'>
 
     <div className='Slack'>
        <a href=""><img src={SlackImg} alt="" id='slackImg'/> </a>
