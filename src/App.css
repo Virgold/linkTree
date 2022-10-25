@@ -57,9 +57,7 @@
   Height: 7.75px;
 }
 
-#mainText {
-  width: 18503px;
-  height: 24.74px;
+.mainText {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700 !important;
