@@ -12,7 +12,7 @@ function LinkCard() {
                 <Col>
                     <Card
                         linkTitle="Twitter Link"
-                        linkAddress=""
+                        linkAddress="https://twitter.com/KngVirgo"
                         linkRef="twitter"
                     />
                 </Col>

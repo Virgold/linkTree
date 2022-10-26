@@ -34,11 +34,43 @@
   background-color: #EAECF0 !important;
 }
 
+.navToggle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 208px;
+  top: 10px;
+  border: 1px dashed #D0D5DD;
+  border-radius: 20px;
+  background: #FFFFFF;
+}
+
 
 #profile__img {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+}
+
+#nav_img1 {
+  position: absolute;
+  left: 30%;
+  right: 11.53%;
+  top: 25.95%;
+  bottom: 14.95%;
+  Width: 15.19px;
+  Height: 14.02px;
+}
+
+#nav_img2 {
+  position: absolute;
+  display: none;
+  left: 30%;
+  right: 11.53%;
+  top: 25.95%;
+  bottom: 14.95%;
+  Width: 15.19px;
+  Height: 14.02px;
 }
 
 #twitter,
@@ -101,6 +133,39 @@
     width: 120px;
     height: 120px;
   }
+
+  .navToggle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 40px;
+    top: 10px;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    background: #FFFFFF;
+  }
+
+  #nav_img1 {
+    position: absolute;
+    display: none;
+    left: 30%;
+    right: 11.53%;
+    top: 25.95%;
+    bottom: 14.95%;
+    Width: 15.19px;
+    Height: 14.02px;
+  }
+
+  #nav_img2 {
+    position: absolute;
+    display: block;
+    left: 30%;
+    right: 11.53%;
+    top: 45.83%;
+    bottom: 45.83%;
+    Width: 13.33px;
+    Height: 1.67px;
+  }
 }
 
 @media only screen and (max-width: 380px) {
@@ -114,5 +179,38 @@
     border-radius: 50%;
     width: 90px;
     height: 90px;
+  }
+
+  .navToggle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 15px;
+    top: 10px;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    background: #FFFFFF;
+  }
+
+  #nav_img1 {
+    position: absolute;
+    display: none;
+    left: 30%;
+    right: 11.53%;
+    top: 25.95%;
+    bottom: 14.95%;
+    Width: 15.19px;
+    Height: 14.02px;
+  }
+
+  #nav_img2 {
+    position: absolute;
+    display: block;
+    left: 30%;
+    right: 11.53%;
+    top: 45.83%;
+    bottom: 45.83%;
+    Width: 13.33px;
+    Height: 1.67px;
   }
 }
