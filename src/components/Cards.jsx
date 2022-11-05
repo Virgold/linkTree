@@ -7,7 +7,7 @@ function Card({linkAddress,linkTitle,linkRef}) {
 
         <div className='d-grid gap-2'>
             <Button className='linkBtn' id={linkRef} size="lg">
-                <a style={{textDecoration:"none", color:"#101828"}} href={linkAddress}>
+                <a style={{textDecoration:"none", color:"#101828"}} href={linkAddress} target="_blank">
                 {linkTitle}
                 </a>
             </Button>

@@ -102,7 +102,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 30px;
   color: #667085;
 }
 
@@ -119,6 +119,33 @@
 #socialImg {
   width: 24px;
   height: 23.45px;
+}
+
+h3 {
+  height: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #101828;
+  letter-spacing: -0.02em;
+}
+
+p {
+  height: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #475467;
+}
+
+@media only screen and (min-width: 568px) {
+  .form {
+    width: 820px;
+  }
 }
 
 @media only screen and (max-width: 568px) {
