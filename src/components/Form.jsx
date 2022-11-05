@@ -23,7 +23,7 @@ function FormData() {
 
             <Row className="mb-3">
 
-                <Form.Group as={Col} md="6" controlId="validationCustom01">
+                <Form.Group as={Col} md="6" controlId="validationCustom01" className='mb-3'>
                     <Form.Label>First name</Form.Label>
                     <Form.Control
                         required
@@ -34,7 +34,7 @@ function FormData() {
                     {/* <Form.Control.Feedback>Looks good!</Form.Control.Feedback> */}
                 </Form.Group>
 
-                <Form.Group as={Col} md="6" controlId="validationCustom02">
+                <Form.Group as={Col} md="6" controlId="validationCustom02" className='mb-3'>
                     <Form.Label>Last name</Form.Label>
                     <Form.Control
                         required
@@ -66,7 +66,7 @@ function FormData() {
                         rows={3}
                         placeholder="send me a message and I'll reply as soon as possible..."
                         required
-                        style={{ height: '132px' }}/>
+                        style={{ height: '132px' }} />
                     <Form.Control.Feedback type="invalid">
                         Please enter a message
                     </Form.Control.Feedback>
@@ -77,15 +77,17 @@ function FormData() {
             <Form.Group className="mb-4">
                 <Form.Check
                     required
-                    style={{color: '#475467'}}
+                    style={{ color: '#475467' }}
                     label="You agree to providing your data to Chukwuma Onuoha who may contact you."
                     // feedback="You must agree before submitting."
                     feedbackType="invalid"
                 />
             </Form.Group>
-
-            <Form.Control as="button" type="submit" className='btn btn-primary' >Send message</Form.Control>   
-
+            <div className="d-grid gap-2">
+                <Button variant="primary" type="submit">
+                Send message
+                </Button>
+            </div>
         </Form>
     );
 }

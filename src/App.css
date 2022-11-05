@@ -44,7 +44,14 @@
   border-radius: 20px;
   background: #FFFFFF;
 }
+.form-control:focus{
+  border-color: none!important;
+}
 
+.form-check-input:focus{
+  box-shadow: none!important;
+
+}
 
 #profile__img {
   border-radius: 50%;

@@ -8,10 +8,16 @@ import ContactMe from './page/ContactMe';
 
 function App() {
   const location = useLocation()
+  console.log(location);
 
   useEffect(() => {
-    document.title = `Link Tree`
-}, [])
+    if (location.pathname == "/"){
+      document.title = `myLinks`
+    }
+    else{
+      document.title = `Contact Me`
+    }
+}, [location])
 
   return (
     <div className="">
