@@ -26,12 +26,12 @@
   padding: 0px;
   width: 180px;
   height: 180px;
-  background-color: #D0D5DD;
+  background-color: #5a201ad3;
   border-radius: 100%;
 }
 
 .profileImg:hover {
-  background-color: #EAECF0 !important;
+  background-color: #5a201a49 !important;
 }
 
 .navToggle {
