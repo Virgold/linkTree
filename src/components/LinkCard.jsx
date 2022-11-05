@@ -3,6 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import '../App.css'
 import Card from './Cards';
+import ContactButton from './ContactButton';
 import Workplace from './Workplace';
 
 function LinkCard() {
@@ -56,17 +57,17 @@ function LinkCard() {
                     />
                 </Col>
                 <Col>
-
-                    <Card
-                        linkTitle="Contact me"
-                        linkAddress="/contact"
-                        linkRef="contact"
+                    <ContactButton
+                        btnTitle="Contact me"
+                        btnAddress="/contact"
+                        btnRef="contact"
                     />
                 </Col>
-                <Workplace/>
+                <Workplace />
             </div>
         </>
     )
 }
+
 
 export default LinkCard
