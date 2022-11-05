@@ -46,7 +46,7 @@
 }
 
 .form-control:focus {
-  border-color: none !important;
+  box-shadow: none!important;
 }
 
 .form-check-input:focus {
