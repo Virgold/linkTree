@@ -57,7 +57,7 @@ function FormData() {
 
             </Row>
 
-            <Row className="mb-3">
+            <Row className="mb-4">
 
                 <Form.Group as={Col} md="12" controlId="validationCustom03">
                     <Form.Label>Message</Form.Label>
@@ -74,16 +74,17 @@ function FormData() {
 
             </Row>
 
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-4">
                 <Form.Check
                     required
+                    style={{color: '#475467'}}
                     label="You agree to providing your data to Chukwuma Onuoha who may contact you."
                     // feedback="You must agree before submitting."
                     feedbackType="invalid"
                 />
             </Form.Group>
 
-            <Button type="submit">Submit form</Button>
+            <Form.Control as="button" type="submit" className='btn btn-primary' >Send message</Form.Control>   
 
         </Form>
     );
