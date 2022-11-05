@@ -24,7 +24,7 @@ function FormData() {
             <Row className="mb-3">
 
                 <Form.Group as={Col} md="6" controlId="validationCustom01" className='mb-3'>
-                    <Form.Label>First name</Form.Label>
+                    <Form.Label id='first_name'>First name</Form.Label>
                     <Form.Control
                         required
                         type="text"
@@ -35,7 +35,7 @@ function FormData() {
                 </Form.Group>
 
                 <Form.Group as={Col} md="6" controlId="validationCustom02" className='mb-3'>
-                    <Form.Label>Last name</Form.Label>
+                    <Form.Label id='last_name'>Last name</Form.Label>
                     <Form.Control
                         required
                         type="text"
@@ -48,7 +48,7 @@ function FormData() {
             <Row className="mb-3">
 
                 <Form.Group as={Col} md="12" controlId="validationCustom03">
-                    <Form.Label>Email</Form.Label>
+                    <Form.Label id='email'>Email</Form.Label>
                     <Form.Control type="text" placeholder="yourname@email.com" required />
                     <Form.Control.Feedback type="invalid">
                         Please provide a Valid email.
@@ -60,7 +60,7 @@ function FormData() {
             <Row className="mb-4">
 
                 <Form.Group as={Col} md="12" controlId="validationCustom03">
-                    <Form.Label>Message</Form.Label>
+                    <Form.Label id='message'>Message</Form.Label>
                     <Form.Control
                         as="textarea"
                         rows={3}
@@ -84,7 +84,7 @@ function FormData() {
                 />
             </Form.Group>
             <div className="d-grid gap-2">
-                <Button variant="primary" type="submit">
+                <Button variant="primary" type="submit" id='btn__submit'>
                 Send message
                 </Button>
             </div>

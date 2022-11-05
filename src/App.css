@@ -44,12 +44,13 @@
   border-radius: 20px;
   background: #FFFFFF;
 }
-.form-control:focus{
-  border-color: none!important;
+
+.form-control:focus {
+  border-color: none !important;
 }
 
-.form-check-input:focus{
-  box-shadow: none!important;
+.form-check-input:focus {
+  box-shadow: none !important;
 
 }
 
@@ -152,6 +153,26 @@ p {
 @media only screen and (min-width: 568px) {
   .form {
     width: 820px;
+  }
+  .navToggle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 98px;
+    top: 10px;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    background: #FFFFFF;
+  }
+
+  #nav_img1 {
+    position: absolute;
+    left: 30%;
+    right: 11.53%;
+    top: 25.95%;
+    bottom: 14.95%;
+    Width: 15.19px;
+    Height: 14.02px;
   }
 }
 
