@@ -55,6 +55,14 @@ function LinkCard() {
                         linkRef="book__design"
                     />
                 </Col>
+                <Col>
+
+                    <Card
+                        linkTitle="Contact me"
+                        linkAddress="/contact"
+                        linkRef="contact"
+                    />
+                </Col>
                 <Workplace/>
             </div>
         </>
